@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="333.072416">
+<testcase classname="Login funtionality for the Amazon application" name="Verify user login for valid crendetials" time="74.771449">
+<system-out><![CDATA[Given User should launch the browser and navigate to Amazon application.....passed
+And User wait for '5' seconds...............................................passed
+Then User verify amazon logo present on the header screen...................passed
+When User mouse hover to Hello SignIN element...............................passed
+And User click on signin button.............................................passed
+And User Enter the email id or mobile number in the login page..............passed
+And User click on continue button on login page.............................passed
+Then User verify the entered mobile number is displayed.....................passed
+When User enter the password in the login page..............................passed
+And User click on login button in the login page............................passed
+And User wait for '3' seconds...............................................passed
+Then User verify the username present in the homepage header................passed
+And User wait for '3' seconds...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login funtionality for the Amazon application" name="User add the product using Menu navigation and verify the same in cart" time="107.318088">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at org.amazon.baseclass.BaseClass.getElementText(BaseClass.java:188)&#13;&#10;&#9;at org.amazon.stepdefinition.StepDefinition.user_select_the_first_product_and_store_the_product_name_as_Apple_Brand_Product(StepDefinition.java:161)&#13;&#10;&#9;at ✽.And User select the first product and store the product name as 'First Product'(LoginScenario.feature:28)&#13;&#10;"><![CDATA[When User mouse hover to shop by category menu..............................passed
+And User select the menu 'Mobile' and the sub menu 'Tablets'................passed
+Then User verify the selected sub menu 'Tablets' displayed in the header....passed
+And User wait for '3' seconds...............................................passed
+When User click check box Amazon prime and Cash on delivery in the filter...passed
+And User wait for '3' seconds...............................................passed
+And User select the first product and store the product name as 'First Product'.failed
+And User switch to next tab and add the selected product to cart............skipped
+And User wait for '3' seconds...............................................skipped
+Then User verify the same product name 'First Product' present in the product detail page.skipped
+And User click on Add to Cart...............................................skipped
+Then User verify the message 'Added to Cart'................................skipped
+
+StackTrace:
+java.lang.RuntimeException
+	at org.amazon.baseclass.BaseClass.getElementText(BaseClass.java:188)
+	at org.amazon.stepdefinition.StepDefinition.user_select_the_first_product_and_store_the_product_name_as_Apple_Brand_Product(StepDefinition.java:161)
+	at ✽.And User select the first product and store the product name as 'First Product'(LoginScenario.feature:28)
+]]></failure>
+</testcase>
+<testcase classname="Login funtionality for the Amazon application" name="User add the product using search" time="50.356787">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at org.amazon.baseclass.BaseClass.elementClick(BaseClass.java:175)&#13;&#10;&#9;at org.amazon.stepdefinition.StepDefinition.user_click_on_Amazon_logo(StepDefinition.java:199)&#13;&#10;&#9;at ✽.When User click on Amazon logo(LoginScenario.feature:37)&#13;&#10;"><![CDATA[When User click on Amazon logo..............................................failed
+When User enter the product name 'Redmi Note 6' in the search feild.........skipped
+And User wait for '2' seconds...............................................skipped
+And User click on search button.............................................skipped
+And User wait for '2' seconds...............................................skipped
+When User click check box Amazon prime and Cash on delivery in the filter...skipped
+And User select the first product and store the product name as 'Redmi Note 6'.skipped
+And User switch to next tab and add the selected product to cart............skipped
+Then User verify the same product name 'Redmi Note 6' present in the product detail page.skipped
+And User click on Add to Cart...............................................skipped
+Then User verify the message 'Added to Cart'................................skipped
+
+StackTrace:
+java.lang.RuntimeException
+	at org.amazon.baseclass.BaseClass.elementClick(BaseClass.java:175)
+	at org.amazon.stepdefinition.StepDefinition.user_click_on_Amazon_logo(StepDefinition.java:199)
+	at ✽.When User click on Amazon logo(LoginScenario.feature:37)
+]]></failure>
+</testcase>
+<testcase classname="Login funtionality for the Amazon application" name="User verify the comparison of two products and add the lowest product to cart" time="50.322272">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at org.amazon.baseclass.BaseClass.elementClick(BaseClass.java:175)&#13;&#10;&#9;at org.amazon.stepdefinition.StepDefinition.user_click_on_Cart_button(StepDefinition.java:214)&#13;&#10;&#9;at ✽.When User click on Cart button(LoginScenario.feature:55)&#13;&#10;"><![CDATA[When User click on Cart button..............................................failed
+And User remove the product which is greater in value.......................skipped
+And User wait for '2' seconds...............................................skipped
+And User click on product to buy............................................skipped
+And User wait for '2' seconds...............................................skipped
+And User click amazon go to homepage........................................skipped
+
+StackTrace:
+java.lang.RuntimeException
+	at org.amazon.baseclass.BaseClass.elementClick(BaseClass.java:175)
+	at org.amazon.stepdefinition.StepDefinition.user_click_on_Cart_button(StepDefinition.java:214)
+	at ✽.When User click on Cart button(LoginScenario.feature:55)
+]]></failure>
+</testcase>
+<testcase classname="Login funtionality for the Amazon application" name="User logout the application" time="50.30382">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at org.amazon.baseclass.BaseClass.movetoElement(BaseClass.java:245)&#13;&#10;&#9;at org.amazon.stepdefinition.StepDefinition.user_mousehover_to_Account_menu_in_the_header(StepDefinition.java:238)&#13;&#10;&#9;at ✽.When User mousehover to Account menu in the header(LoginScenario.feature:63)&#13;&#10;"><![CDATA[When User mousehover to Account menu in the header..........................failed
+And User wait for '2' seconds...............................................skipped
+And User click sign out button..............................................skipped
+Then User verify 'Register' present in the header...........................skipped
+
+StackTrace:
+java.lang.RuntimeException
+	at org.amazon.baseclass.BaseClass.movetoElement(BaseClass.java:245)
+	at org.amazon.stepdefinition.StepDefinition.user_mousehover_to_Account_menu_in_the_header(StepDefinition.java:238)
+	at ✽.When User mousehover to Account menu in the header(LoginScenario.feature:63)
+]]></failure>
+</testcase>
+</testsuite>
