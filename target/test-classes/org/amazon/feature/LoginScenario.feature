@@ -58,6 +58,8 @@ And User wait for '2' seconds
 And User click on product to buy
 And User wait for '2' seconds
 And User click amazon go to homepage
+And User wait for '2' seconds
+
 
 Scenario: User logout the application
 When User mousehover to Account menu in the header

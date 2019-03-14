@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 1286223,
+  "duration": 1705334,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,7 +99,7 @@ formatter.match({
   "location": "StepDefinition.user_should_launch_the_browser_and_navigate_to_Amazon_application()"
 });
 formatter.result({
-  "duration": 104941078641,
+  "duration": 7028039123,
   "status": "passed"
 });
 formatter.match({
@@ -112,60 +112,64 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "duration": 5001654667,
+  "duration": 5001669334,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_verify_amazon_logo_present_on_the_header_screen()"
 });
 formatter.result({
-  "duration": 53621357,
+  "duration": 48056021,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_mouse_hover_to_Hello_SignIN_element()"
 });
 formatter.result({
-  "duration": 80064036,
+  "duration": 75110700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_signin_button()"
 });
 formatter.result({
-  "duration": 62287581017,
-  "error_message": "java.lang.RuntimeException\r\n\tat org.amazon.baseclass.BaseClass.elementClick(BaseClass.java:175)\r\n\tat org.amazon.stepdefinition.StepDefinition.user_click_on_signin_button(StepDefinition.java:53)\r\n\tat ✽.And User click on signin button(LoginScenario.feature:11)\r\n",
-  "status": "failed"
+  "duration": 2760665227,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Enter_the_email_id_or_mobile_number_in_the_login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 187580083,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_continue_button_on_login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 973252877,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_verify_the_entered_mobile_number_is_displayed()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 49584467,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_enter_the_password_in_the_login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 185420527,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_login_button_in_the_login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3773493233,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -177,13 +181,15 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3000927555,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_verify_the_username_present_in_the_homepage_header()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 56809359,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -195,14 +201,15 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3000813334,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 972339099,
+  "duration": 130667,
   "status": "passed"
 });
 formatter.before({
-  "duration": 69778,
+  "duration": 44445,
   "status": "passed"
 });
 formatter.scenario({
@@ -277,7 +284,7 @@ formatter.match({
   "location": "StepDefinition.user_mouse_hover_to_shop_by_category_menu()"
 });
 formatter.result({
-  "duration": 49511133,
+  "duration": 58570693,
   "status": "passed"
 });
 formatter.match({
@@ -294,7 +301,7 @@ formatter.match({
   "location": "StepDefinition.user_select_the_menu_and_the_sub_menu(String,String)"
 });
 formatter.result({
-  "duration": 10027959123,
+  "duration": 8516974897,
   "status": "passed"
 });
 formatter.match({
@@ -307,9 +314,8 @@ formatter.match({
   "location": "StepDefinition.user_verify_the_selected_sub_menu_displayed_in_the_header(String)"
 });
 formatter.result({
-  "duration": 62202849423,
-  "error_message": "java.lang.RuntimeException\r\n\tat org.amazon.baseclass.BaseClass.getElementText(BaseClass.java:188)\r\n\tat org.amazon.stepdefinition.StepDefinition.user_verify_the_selected_sub_menu_displayed_in_the_header(StepDefinition.java:131)\r\n\tat ✽.Then User verify the selected sub menu \u0027Tablets\u0027 displayed in the header(LoginScenario.feature:24)\r\n",
-  "status": "failed"
+  "duration": 132713837,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -321,13 +327,15 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3000227556,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_check_box_Amazon_prime_in_the_filter()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8469551320,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -339,7 +347,8 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2999906222,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -351,13 +360,15 @@ formatter.match({
   "location": "StepDefinition.user_select_the_first_product_and_store_the_product_name_as_Apple_Brand_Product(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 138801839,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_switch_to_next_tab_and_add_the_selected_product_to_cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9096448,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -369,7 +380,8 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3000892001,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -381,13 +393,15 @@ formatter.match({
   "location": "StepDefinition.user_verify_the_same_product_name_Apple_Brand_Product_present_in_the_product_detail_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1244943665,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_Add_to_Cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 101986268,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -399,10 +413,11 @@ formatter.match({
   "location": "StepDefinition.user_verify_the_message_Added_to_Cart(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3137255172,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 882168392,
+  "duration": 29778,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -492,7 +507,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 29334,
+  "duration": 29778,
   "status": "passed"
 });
 formatter.scenario({
@@ -576,10 +591,9 @@ formatter.step({
 formatter.match({
   "location": "StepDefinition.user_click_on_Amazon_logo()"
 });
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  formatter.result({
-  "duration": 50354275713,
-  "error_message": "java.lang.RuntimeException\r\n\tat org.amazon.baseclass.BaseClass.elementClick(BaseClass.java:175)\r\n\tat org.amazon.stepdefinition.StepDefinition.user_click_on_Amazon_logo(StepDefinition.java:199)\r\n\tat ✽.When User click on Amazon logo(LoginScenario.feature:37)\r\n",
-  "status": "failed"
+formatter.result({
+  "duration": 3317882363,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -591,7 +605,8 @@ formatter.match({
   "location": "StepDefinition.user_enter_the_product_name_in_the_search_feild(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 231950325,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -603,13 +618,15 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2000207556,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3130573391,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -621,13 +638,15 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2000226666,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_check_box_Amazon_prime_in_the_filter()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5216109874,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -639,13 +658,15 @@ formatter.match({
   "location": "StepDefinition.user_select_the_first_product_and_store_the_product_name_as_Apple_Brand_Product(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1263602784,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_switch_to_next_tab_and_add_the_selected_product_to_cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 39304906,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -657,13 +678,15 @@ formatter.match({
   "location": "StepDefinition.user_verify_the_same_product_name_Apple_Brand_Product_present_in_the_product_detail_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1898437288,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_Add_to_Cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 72048032,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -675,15 +698,16 @@ formatter.match({
   "location": "StepDefinition.user_verify_the_message_Added_to_Cart(String)"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 2445334,
-  "error_message": "java.lang.RuntimeException\r\n\tat org.amazon.baseclass.BaseClass.takeScreenShot(BaseClass.java:350)\r\n\tat org.amazon.stepdefinition.Hooks.afterHook(Hooks.java:29)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+  "duration": 2853490157,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Added to Cart]\u003e but was:\u003c[Not added]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat org.amazon.stepdefinition.StepDefinition.user_verify_the_message_Added_to_Cart(StepDefinition.java:194)\r\n\tat ✽.Then User verify the message \u0027Added to Cart\u0027(LoginScenario.feature:47)\r\n",
   "status": "failed"
 });
+formatter.after({
+  "duration": 485737550,
+  "status": "passed"
+});
 formatter.before({
-  "duration": 71111,
+  "duration": 65334,
   "status": "passed"
 });
 formatter.scenario({
@@ -724,19 +748,24 @@ formatter.step({
   "name": "User click amazon go to homepage",
   "keyword": "And "
 });
+formatter.step({
+  "line": 61,
+  "name": "User wait for \u00272\u0027 seconds",
+  "keyword": "And "
+});
 formatter.match({
   "location": "StepDefinition.user_click_on_Cart_button()"
 });
 formatter.result({
-  "duration": 50320403254,
-  "error_message": "java.lang.RuntimeException\r\n\tat org.amazon.baseclass.BaseClass.elementClick(BaseClass.java:175)\r\n\tat org.amazon.stepdefinition.StepDefinition.user_click_on_Cart_button(StepDefinition.java:214)\r\n\tat ✽.When User click on Cart button(LoginScenario.feature:55)\r\n",
-  "status": "failed"
+  "duration": 3475497545,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_remove_the_product_which_is_greater_in_value()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 136717394,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -748,13 +777,15 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1999433333,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_on_product_to_buy()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3978728435,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -766,25 +797,39 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1999848889,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_amazon_go_to_homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1310659249,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 15
+    }
+  ],
+  "location": "StepDefinition.user_wait_for_seconds(int)"
+});
+formatter.result({
+  "duration": 2000405334,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 1797779,
-  "error_message": "java.lang.RuntimeException\r\n\tat org.amazon.baseclass.BaseClass.takeScreenShot(BaseClass.java:350)\r\n\tat org.amazon.stepdefinition.Hooks.afterHook(Hooks.java:29)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
-  "status": "failed"
+  "duration": 54223,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 48000,
+  "duration": 48889,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 62,
+  "line": 64,
   "name": "User logout the application",
   "description": "",
   "id": "login-funtionality-for-the-amazon-application;user-logout-the-application",
@@ -792,22 +837,22 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 63,
+  "line": 65,
   "name": "User mousehover to Account menu in the header",
   "keyword": "When "
 });
 formatter.step({
-  "line": 64,
+  "line": 66,
   "name": "User wait for \u00272\u0027 seconds",
   "keyword": "And "
 });
 formatter.step({
-  "line": 65,
+  "line": 67,
   "name": "User click sign out button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 66,
+  "line": 68,
   "name": "User verify \u0027Register\u0027 present in the header",
   "keyword": "Then "
 });
@@ -815,9 +860,8 @@ formatter.match({
   "location": "StepDefinition.user_mousehover_to_Account_menu_in_the_header()"
 });
 formatter.result({
-  "duration": 50302137023,
-  "error_message": "java.lang.RuntimeException\r\n\tat org.amazon.baseclass.BaseClass.movetoElement(BaseClass.java:245)\r\n\tat org.amazon.stepdefinition.StepDefinition.user_mousehover_to_Account_menu_in_the_header(StepDefinition.java:238)\r\n\tat ✽.When User mousehover to Account menu in the header(LoginScenario.feature:63)\r\n",
-  "status": "failed"
+  "duration": 44949353,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -829,13 +873,15 @@ formatter.match({
   "location": "StepDefinition.user_wait_for_seconds(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2000049778,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_sign_out_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 802617245,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -847,11 +893,12 @@ formatter.match({
   "location": "StepDefinition.user_verify_login_text_present_in_the_header(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 51294245,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Register]\u003e but was:\u003c[Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat org.amazon.stepdefinition.StepDefinition.user_verify_login_text_present_in_the_header(StepDefinition.java:249)\r\n\tat ✽.Then User verify \u0027Register\u0027 present in the header(LoginScenario.feature:68)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 1634668,
-  "error_message": "java.lang.RuntimeException\r\n\tat org.amazon.baseclass.BaseClass.takeScreenShot(BaseClass.java:350)\r\n\tat org.amazon.stepdefinition.Hooks.afterHook(Hooks.java:29)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
-  "status": "failed"
+  "duration": 316940141,
+  "status": "passed"
 });
 });

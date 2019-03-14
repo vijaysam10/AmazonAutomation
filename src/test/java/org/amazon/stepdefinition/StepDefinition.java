@@ -174,6 +174,7 @@ public class StepDefinition extends BaseClass {
 		String txt = getElementText(pm.getPLP_Page().getProductTitle());
 		String ac = txt.trim();
 		String ex = mp.get(name);
+		//setValuetoExcel("ProductName", "Sheet1", 1, 1, ex);
 		System.out.println(ex);
 		Assert.assertEquals(ex, ac);
 	}

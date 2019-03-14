@@ -9,15 +9,11 @@ import com.cucumber.listener.Reporter;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import gherkin.formatter.model.Scenario;
 
 public class Hooks {
 
-	
 	@Before
 	public void beforeHook(cucumber.api.Scenario scenario) {
-		// TODO Auto-generated method stub
-
 		Reporter.assignAuthor("VijayKumar");
 	}
 
@@ -26,7 +22,7 @@ public class Hooks {
 		String status = scenario.getStatus();
 		System.out.println(status);
 		if (scenario.isFailed()) {
-			File 	 takeScreenShot = BaseClass.takeScreenShot(scenario.getName().toString());
+			File takeScreenShot = BaseClass.takeScreenShot(scenario.getName().toString());
 			Reporter.addScreenCaptureFromPath(takeScreenShot.getAbsolutePath());
 		}
 	}

@@ -60,7 +60,7 @@ public class HomePage {
 		return signOut_HomePage;
 	}
 
-	@FindBy(xpath="(//span[@class='nav-line-2'])[2]")
+	@FindBy(xpath="//span[text()='Hello, vijayakumar']")
 	private WebElement helloHeader;
 	
 	public WebElement getHelloHeader() {

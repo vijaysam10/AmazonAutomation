@@ -35,7 +35,7 @@ public class TestRunner {
 	@AfterClass
 	public static void tearDown() {
 		Reporter.loadXMLConfig(
-				new File(System.getProperty("user.dir") + "\\src\\test\\reource\\Resources\\extent-config.xml"));
+				new File(System.getProperty("user.dir") + "\\src\\test\\resource\\Resources\\extent-config.xml"));
 		driver.quit();
 	}
 }
